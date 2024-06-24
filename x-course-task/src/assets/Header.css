@@ -1,0 +1,82 @@
+/* Header */
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    background: linear-gradient(to right, rgba(245, 222, 179, 0.6) 0%, rgba(250, 235, 215, 0.6) 60%);
+    /* border-bottom: 3px wheat solid; */
+    box-shadow: 0 0 20px 5px wheat;
+}
+
+.header h1 {
+    margin: 10px 0;
+}
+
+.header .cart-link {
+    position: relative;
+}
+
+.header .cart-link div{
+    position: absolute;
+    top: 20%;
+    right: -5px;
+    background-color: gray;
+    border-radius: 50%;
+    color: white;
+    padding: 1px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    transition: transform 1s;
+}
+
+.header a:hover {
+    transform: scale(1.2);
+}
+
+.header a:active {
+    transform: scale(0.5);
+}
+
+.header nav {
+    width: 25rem;
+    /* background-color: aqua; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .user {
+    align-items: center;
+}
+
+.header .user-name {
+    padding-left: 0.6rem;
+}
+
+/* Header */
+
+@media screen and (max-width: 1024px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header h1 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .header nav {
+        width: 100%;
+        flex-direction: column;
+        height: 200px;
+    }
+
+}

@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Merienda, 'Courier New', Courier, monospace;
+  /* font-size: 16px; */
+  letter-spacing: 1px;
+  padding: 0;
+  margin: 0;
+
+  background-image: url('../assets/images/background.jpg');
+  background-color: rgb(250, 240, 230);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+body #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body ::selection {
+  background-color: rgba(250, 250, 91, 0.6);
+}
+
+.flex {
+  display: flex;
+}
+
+main {
+  /* padding: 1rem; */
+  margin: 1rem;
+}
+
+@media screen and (min-width: 1600px) {
+
+  html {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  /* body {
+    font-size: 14px;
+  } */
+
+  html {
+    font-size: 14px;
+  }
+
+}

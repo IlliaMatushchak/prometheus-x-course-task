@@ -1,0 +1,86 @@
+/* MAIN */
+
+.signin-container img {
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 50px auto 50px;
+    background-color: rgba(245, 222, 179, 0.8);
+    border-radius: 100%;
+    box-shadow: 0 0 20px 15px rgba(245, 222, 179, 0.9);
+    transition: all 1s;
+}
+
+.signin-container img:hover {
+    transform: scale(1.2);
+}
+
+.signin-container form {
+    margin: 1rem auto;
+    width: 12.5rem;
+    text-align: center;
+    background-color: rgba(245, 222, 179, 0.7);
+    box-shadow: 0 0 20px 15px rgba(245, 222, 179, 0.8);
+}
+
+.signin-container #user-name,
+.signin-container button[type="submit"] {
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+    height: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.signin-container #user-name {
+    border: 1px solid black;
+    outline: 1px solid rgba(0, 0, 0, 0);
+    transition: all 1s;
+}
+
+.signin-container #user-name:focus {
+    outline: 1px solid rgba(0, 0, 0, 1);
+    transform: scale(1.2);
+}
+
+.signin-container button[type="submit"] {
+    margin: 20px 0;
+    border: 2px solid black;
+    transition: all 0.5s;
+}
+
+.signin-container button[type="submit"]:hover {
+    transform: scale(1.2);
+}
+
+/* MAIN */
+
+
+@media screen and (max-width: 320px) {
+
+    .signin-container img {
+        width: 200px;
+        height: 200px;
+        margin: 50px auto 50px;
+    }
+
+    .signin-container form {
+        margin: 0 8px;
+        width: 95%;
+    }
+
+    .signin-container #user-name,
+    .signin-container button[type="submit"] {
+        height: 3rem;
+        border-radius: 1.5rem;
+    }
+
+    .signin-container #user-name:focus {
+        transform: scale(1.03);
+    }
+
+    .signin-container button[type="submit"]:hover {
+        transform: scale(1.03);
+    }
+}

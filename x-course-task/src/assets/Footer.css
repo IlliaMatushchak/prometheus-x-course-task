@@ -1,0 +1,25 @@
+footer {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 20px 10px wheat;
+    background: linear-gradient(to right, rgba(245, 222, 179, 0.7) 0%, rgba(250, 235, 215, 0.7) 60%);
+    text-align: center;
+    margin-top: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+/* body {
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  } */

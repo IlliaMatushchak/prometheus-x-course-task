@@ -1,0 +1,15 @@
+.error-section {
+    font-size: 4rem;
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+}
+
+.error-section p {
+    text-align: center;
+}
+
+.error-section span {
+    font-weight: bold;
+    color: red;
+}
